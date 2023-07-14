@@ -20,13 +20,13 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 
--keep public class com.akshaymayekar.newImagelibrary.DogImageLib
--keep public class com.akshaymayekar.newImagelibrary.DogImageInterface
+-keep public class com.akshaymayekar.newImagelibrary.ImageLib
+-keep public class com.akshaymayekar.newImagelibrary.ImageInterface
 
--keepclassmembers class com.akshaymayekar.newImagelibrary.DogImageLib {
+-keepclassmembers class com.akshaymayekar.newImagelibrary.ImageLib {
    *;
 }
--keepclassmembers class com.akshaymayekar.newImagelibrary.DogImageInterface {
+-keepclassmembers class com.akshaymayekar.newImagelibrary.ImageInterface {
    *;
 }
 
