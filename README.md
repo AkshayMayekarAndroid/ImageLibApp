@@ -5,6 +5,16 @@ This README file contains information and instructions on how to set up and use 
 <h1>Project Description</h1>
 This Android project is designed to fetch Dog images from the API.
 
+include the following libs to your project for library to work
+        
+        //retrofit
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+
+        //okhttp
+    implementation "com.squareup.okhttp3:okhttp:4.10.0"
+    implementation "com.squareup.okhttp3:logging-interceptor:4.10.0"
+
 To Initialize the Library, used following -
         
     val imageLib = ImageLib()
